@@ -37,6 +37,8 @@ export default {
     color: #fff;
     background-color: rgba(35, 38, 48, 0.99);
     font-size: 14px;
+    position: fixed;
+    z-index: 1;
 
     a {
       color: #fff;
@@ -75,6 +77,8 @@ export default {
   }
 
   .main-nav {
+    position: fixed;
+    width: 100%;
     padding: 25px 35px;
   }
 </style>

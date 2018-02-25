@@ -6,18 +6,22 @@
         <hero></hero>
       </div>
     </section>
-    
+    <section class="intro">
+      <intro></intro>
+    </section>
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar.vue';
 import Hero from './components/Hero.vue';
+import Intro from './components/Intro.vue';
 
 export default {
   components: {
     'navbar': Navbar,
-    'hero': Hero
+    'hero': Hero,
+    'intro': Intro
   }
 }
 </script>
@@ -36,4 +40,6 @@ export default {
     background-size: cover;
     text-align: center;
   }
+
+  
 </style>
