@@ -62,11 +62,14 @@ export default {
       border: 2px solid #fff;
       border-radius: 50px;
       background-color: rgba(0, 0, 0, 0);
-      // transition: color, border 1s;
 
       &:hover {
         border: 2px solid orange;
         color: orange;
+      }
+
+      &:focus {
+        outline: none;
       }
     }
   }
