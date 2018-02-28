@@ -12,6 +12,9 @@
     <section class="benefits">
       <benefits></benefits>
     </section>
+    <section class="founders">
+      <founders></founders>
+    </section>
   </div>
 </template>
 
@@ -19,14 +22,16 @@
 import Navbar from './components/Navbar.vue';
 import Hero from './components/Hero.vue';
 import Intro from './components/Intro.vue';
-import Benefits from './components/Benefits.vue'
+import Benefits from './components/Benefits.vue';
+import Founders from './components/Founders.vue';
 
 export default {
   components: {
     'navbar': Navbar,
     'hero': Hero,
     'intro': Intro,
-    'benefits': Benefits
+    'benefits': Benefits,
+    'founders': Founders
   }
 }
 </script>
