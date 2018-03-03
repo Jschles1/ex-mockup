@@ -38,7 +38,7 @@ export default {
     background-color: rgba(35, 38, 48, 0.99);
     font-size: 14px;
     position: fixed;
-    z-index: 1;
+    z-index: 10;
 
     a {
       color: #fff;

@@ -15,6 +15,9 @@
     <section class="founders">
       <founders></founders>
     </section>
+    <section class="features">
+      <features></features>
+    </section>
   </div>
 </template>
 
@@ -24,6 +27,7 @@ import Hero from './components/Hero.vue';
 import Intro from './components/Intro.vue';
 import Benefits from './components/Benefits.vue';
 import Founders from './components/Founders.vue';
+import Features from './components/Features.vue';
 
 export default {
   components: {
@@ -31,7 +35,8 @@ export default {
     'hero': Hero,
     'intro': Intro,
     'benefits': Benefits,
-    'founders': Founders
+    'founders': Founders,
+    'features': Features
   }
 }
 </script>
