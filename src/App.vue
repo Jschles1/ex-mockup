@@ -21,6 +21,12 @@
     <section class="problems">
       <problems></problems>
     </section>
+    <section class="solution">
+      <solution></solution>
+    </section>
+    <section class="download">
+      <download></download>
+    </section>
   </div>
 </template>
 
@@ -32,6 +38,8 @@ import Benefits from './components/Benefits.vue';
 import Founders from './components/Founders.vue';
 import Features from './components/Features.vue';
 import Problems from './components/Problems.vue';
+import Solution from './components/Solution.vue';
+import Download from './components/Download.vue';
 
 export default {
   components: {
@@ -41,7 +49,9 @@ export default {
     'benefits': Benefits,
     'founders': Founders,
     'features': Features,
-    'problems': Problems
+    'problems': Problems,
+    'solution': Solution,
+    'download': Download
   }
 }
 </script>
