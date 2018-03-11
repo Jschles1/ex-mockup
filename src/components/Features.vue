@@ -81,16 +81,13 @@ export default {
     .exodus-icons {
       width: 900px;
       height: 1360px;
-
+      overflow: hidden;
       background: url(https://www.exodus.io/img/exodus-icon-set.png) no-repeat center center;
       z-index: 1;
       background-size: contain;
       position: absolute;
       bottom: -400px;
       right: 50%;
-
-      
-      z-index: 1;
     }
 
     .features-col {

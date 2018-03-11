@@ -18,6 +18,9 @@
     <section class="features">
       <features></features>
     </section>
+    <section class="problems">
+      <problems></problems>
+    </section>
   </div>
 </template>
 
@@ -28,6 +31,7 @@ import Intro from './components/Intro.vue';
 import Benefits from './components/Benefits.vue';
 import Founders from './components/Founders.vue';
 import Features from './components/Features.vue';
+import Problems from './components/Problems.vue';
 
 export default {
   components: {
@@ -36,12 +40,17 @@ export default {
     'intro': Intro,
     'benefits': Benefits,
     'founders': Founders,
-    'features': Features
+    'features': Features,
+    'problems': Problems
   }
 }
 </script>
 
 <style lang="scss">
+  body {
+    line-height: 1.42857143;
+  }
+
   #app {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
