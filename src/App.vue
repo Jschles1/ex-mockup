@@ -27,6 +27,12 @@
     <section class="download">
       <download></download>
     </section>
+    <section class="scroll">
+      <scroll></scroll>
+    </section>
+    <footer class="app-footer">
+      <app-footer></app-footer>
+    </footer>
   </div>
 </template>
 
@@ -40,6 +46,8 @@ import Features from './components/Features.vue';
 import Problems from './components/Problems.vue';
 import Solution from './components/Solution.vue';
 import Download from './components/Download.vue';
+import Scroll from './components/Scroll.vue';
+import AppFooter from './components/AppFooter.vue';
 
 export default {
   components: {
@@ -51,7 +59,9 @@ export default {
     'features': Features,
     'problems': Problems,
     'solution': Solution,
-    'download': Download
+    'download': Download,
+    'scroll': Scroll,
+    'app-footer': AppFooter
   }
 }
 </script>
